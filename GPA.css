@@ -1,0 +1,113 @@
+body{
+    background-color:cadetblue
+}
+/*____________logo_________________*/
+h1{
+    text-align: center;/*to center text*/
+    font-size:50px;
+    color: rgb(89, 36, 36);
+    font-family :cursive
+}
+h1 img{
+    height: 80px;
+    width : 80px;
+    background-image:transparent;
+    mix-blend-mode: multiply; /*to make his white background --> transparent*/
+    position: relative;
+    top:20px;
+    
+    
+}
+/*_____________________________*/
+#card{
+    width:650px;
+    height:fit-content;
+    background-color: rgb(255, 250, 240);
+    margin: auto;/*to center Div*/
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+}
+/*_____________________________*/
+.result{
+    display:block;
+    margin : 20px auto;
+    border: 3px solid rgb(89, 36, 36);;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    background-color: transparent;
+    text-align: center;
+    box-shadow: 0px 0px 30px;
+}
+.result:disabled{
+    color:rgb(89, 36, 36);
+    font-size: 20px;
+}
+input::placeholder{
+    color:rgb(89, 36, 36);
+    font-size: large;
+}
+/*_____________________________*/
+.course,.hours,.grade{
+    border: 3px solid rgb(89, 36, 36);;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 8px;
+}
+.course{
+    margin-left: 40px;
+}
+button{
+    border: 3px solid rgb(89, 36, 36);;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    background-color:rgb(89, 36, 36);
+    color: white;
+    margin-left: 17px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+/*_____________________________*/
+li{
+    margin:30px 30px 30px 1px; 
+    list-style: none;
+    border: none;
+    box-shadow: 0px 0px 20px;
+    border-radius: 10px;
+    height: 20px;
+    letter-spacing: 1px;
+    padding:10px ;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+
+}
+
+.C , .H , .G{
+    text-align: center;
+    border: 2px solid rgb(89, 36, 36);;
+    border-radius: 10px;
+    width: 150px;
+    color:rgb(89, 36, 36);;
+    height: 20px;
+}
+
+span{
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(89, 36, 36);
+    cursor: pointer;
+} 
+
+span:hover{
+    background-color: rgb(89, 36, 36);
+    color:white;
+}
+
